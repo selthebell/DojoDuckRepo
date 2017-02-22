@@ -1,0 +1,322 @@
+.wrapper{
+  width: 933px;
+  height: 975px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+  .wrapper .contact{
+    position: relative;
+    top: 5px;
+    font-family: arial;
+  }
+  .contact p{
+    margin-top: 0px;
+  }
+  .span1{
+    color: black;
+    font-style: italic;
+    position: relative;
+    bottom: 5px;
+  }
+  h1{
+    padding-top: 11px;
+  }
+    .hline{
+      color: black;
+      padding-left:  389px;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+  .container{
+    background-color: #523e47;
+    height: 865px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px
+  }
+  .container>img{
+    display: inline-block;;
+    height: 275px;
+    width: 370px;
+    background-color: aqua;
+    border: 6px solid #c0c0c0;
+  }
+    .blurb1{
+      display:inline-block;
+      height: 285px;
+      width: 472px;
+      margin-left: 25px;
+      background-color: #e1d5e0;
+      vertical-align: top;
+    }
+      .blurb1 .p1{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 462px;
+        margin-top: 0px;
+        height: 48px;
+        line-height: 48px;
+        font-family: Arial black;
+        padding-left: 10px;
+       }
+       .blurb1 .p2{
+         margin-top: 0px;
+         font-family: Arial;
+         width: 462px;
+         padding-left: 10px;
+         font-size: 16px;
+       }
+        .blurb1 .p2 a{
+          color:inherit;
+       }
+    .LML{
+      margin-top: 25px;
+      width: 275px;
+      height: 525px;
+      background-color: #dfd3df;
+      display: inline-block;
+      vertical-align: top;
+    }
+      .LML .lmlp1{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 265px;
+        margin: 0px;
+        height: 40px;
+        line-height: 40px;
+        font-family: Arial black;
+        padding-left: 10px;
+      }
+      .LML .lmlphoto{
+        width: 275px;
+        height: 145px;
+        background-color: #8d8b97;
+       }
+       .LML .lmlp2{
+         width: 265;
+         height: 160px;
+         margin-top: 0px;
+         font-family: Arial;
+         padding-left: 5px;
+         padding-right: 5px;
+         font-size: 14px;
+         text-align: justify;
+       }
+       .LML .tech{
+         color: white;
+         background-color: #8d8b97;
+         display: inline-block;
+         width: 265px;
+         margin: 0px;
+         height: 40px;
+         line-height: 9px;
+         font-family: Arial black;
+         padding-left: 10px;
+       }
+        .LML .icons{
+          width: 265;
+          height: 148px;
+          background-color:  #dfd3df;
+          margin-top: 0px;
+          display: inline-block;
+          padding: 3px;
+          text-align: center;
+        }
+          .LML .icons .icon1{
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            height: 40px;
+            width: 40px;
+            margin: 3px;
+            background-color: #dfd3df;
+            //border: 1px solid black;
+          }
+          .LML .icons .button {
+            -webkit-border-radius: 10;
+            -moz-border-radius: 10;
+            border-radius: 10px;
+            text-shadow: 8px 8px 8px #666666;
+            -webkit-box-shadow: 0px 1px 3px #666666;
+            -moz-box-shadow: 0px 1px 3px #666666;
+            box-shadow: 0px 1px 3px #666666;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 12px;
+            background: #258751;
+            padding: 6px 6px 6px 6px;
+            border: solid #272938 3px;
+            text-decoration: none;
+            position: relative;
+            top: 5px;
+          }
+
+          .LML .icons .button:hover {
+            background: #7bd66b;
+            text-decoration: none;
+          }
+    .LMM{
+      margin-top: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+      width: 275px;
+      height: 525px;
+      background-color: #dfd3df;
+      display: inline-block;
+    }
+      .LMM .lmmp1{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 265px;
+        margin: 0px;
+        height: 40px;
+        line-height: 40px;
+        font-family: Arial black;
+        padding-left: 10px;
+      }
+      .LMM .lmmp2{
+        width: 265;
+        height: 160px;
+        margin-top: 0px;
+        font-family: Arial;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .LMM .tech{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 265px;
+        margin: 0px;
+        height: 40px;
+        line-height: 9px;
+        font-family: Arial black;
+        padding-left: 10px;
+      }
+      .LMM .icons{
+        width: 265;
+        height: 144px;
+        background-color:  #dfd3df;
+        margin-top: 0px;
+        display: inline-block;
+        padding: 3px;
+        text-align: center;
+      }
+        .LMM .icons .icon1{
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          height: 40px;
+          width: 40px;
+          margin: 3px;
+          background-color: #dfd3df;
+          //border: 1px solid black
+        }
+        .LMM .icons .button{
+          -webkit-border-radius: 10;
+          -moz-border-radius: 10;
+          border-radius: 10px;
+          text-shadow: 8px 8px 8px #666666;
+          -webkit-box-shadow: 0px 1px 3px #666666;
+          -moz-box-shadow: 0px 1px 3px #666666;
+          box-shadow: 0px 1px 3px #666666;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 12px;
+          background: #258751;
+          padding: 6px 6px 6px 6px;
+          border: solid #272938 3px;
+          text-decoration: none;
+          position: relative;
+          top: 5px;
+        }
+        .LMM .icons .button:hover{
+          background: #7bd66b;
+          text-decoration: none;
+        }
+    .LMR{
+      margin-top: 25px;
+      width: 275px;
+      height: 525px;
+      background-color: #dfd3df;
+      display: inline-block;
+      vertical-align: top;
+    }
+      .LMR .lmrp1{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 265px;
+        margin: 0px;
+        height: 40px;
+        line-height: 40px;
+        font-family: Arial black;
+        padding-left: 10px;
+      }
+      .LMR .lmrp2{
+        width: 265;
+        height: 160px;
+        margin-top: 0px;
+        font-family: Arial;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 14px;
+        text-align: justify;
+      }
+      .LMR .tech{
+        color: white;
+        background-color: #8d8b97;
+        display: inline-block;
+        width: 265px;
+        margin: 0px;
+        height: 40px;
+        line-height: 9px;
+        font-family: Arial black;
+        padding-left: 10px;
+      }
+      .LMR .icons{
+        width: 265;
+        height: 144px;
+        background-color:  #dfd3df;
+        margin-top: 0px;
+        display: inline-block;
+        padding: 3px;
+        text-align: center;
+      }
+        .LMR .icons .icon1{
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          height: 40px;
+          width: 40px;
+          margin: 3px;
+          background-color: #dfd3df;
+        }
+        .LMR .icons .button{
+          -webkit-border-radius: 10;
+          -moz-border-radius: 10;
+          border-radius: 10px;
+          text-shadow: 8px 8px 8px #666666;
+          -webkit-box-shadow: 0px 1px 3px #666666;
+          -moz-box-shadow: 0px 1px 3px #666666;
+          box-shadow: 0px 1px 3px #666666;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 12px;
+          background: #258751;
+          padding: 6px 6px 6px 6px;
+          border: solid #272938 3px;
+          text-decoration: none;
+          position: relative;
+          top: 5px;
+        }
+        .LMM .icons .button:hover{
+          background: #7bd66b;
+          text-decoration: none;
+        }
