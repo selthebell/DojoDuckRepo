@@ -17,6 +17,24 @@
         display: inline-block;
       }
     </style>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    var player1 = {
+      color: 'red',
+      symbol: 'X'
+    }
+    var player2 = {
+      color: 'green',
+      symbol: 'O'
+    }
+    var players = [player1, player2];
+    var board = [
+                  [['#topleft'],['#topmiddle'],['#topright']],
+                  [['#midleft'],['#midmiddle'],['#midright']],
+                  [['#botleft'],['#botmiddle'],['#botright']]
+                ]
+  </script>
   </head>
   <body>
     <div id="container">
@@ -27,7 +45,7 @@
         <div class="tile">
 
         </div>
-        <div class="tile">
+        <div class="tile" id="topmiddle">
 
         </div>
         <div class="tile">
