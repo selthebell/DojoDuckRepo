@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>explore jquery</title>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      console.log('you did get jquery in here!');
+      var answer = Math.floor((Math.random() * 100) + 1);
+      $('form').submit(function(e) {
+        e.preventDefault();
+        var guess = $('input[name=guess]').val();
+        console.log('you guessed: ' + guess + ' the answer is ' + answer);
+        if (guess == answer){
+          $('#board').append('<p>you got it!</p>');
+          var ready = confirm('Are you ready?');
+          if (ready) {
+            answer = Math.floor((Math.random() * 100) + 1);
+          } else {
+            console.log('GGWP');
+          }
+        } else if (guess > answer) {
+          $('#board').append('<p>too hi!</p>');
+        } else {
+          $('#board').append('<p>too lo!</p>');
+        }
+      })
+
+
+    });
+  </script>
+  </head>
+  <body>
+    <div id="board">
+      <h4>Guess A number!</h4>
+      <form class="" action="index.html" method="post">
+        <input type="number" name="guess" value="">
+        <input type="submit" name="" value="guess!">
+      </form>
+
+    </div>
+  </body>
+</html>
